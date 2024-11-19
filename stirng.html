@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Difference between substring and substr</title>
+</head>
+<body>
+  	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		// //subtstring
+		// var str = "sujwal";
+		// var a= str.substring(1,5);
+		// document.write(str+"<br>");
+		// document.write(a+"<br>");
+		// //subtstring end...
+		// //substr
+		// var b = str.substr(1,3);
+		// document.write(b);
+		// //substr end...
+
+		var str = "Sudha Narayan Murthy";
+		var name = str.split(" ");
+		document.write(name);
+		var fname = name[0];
+		var mname = name[1];
+		var lname = name[2];
+		document.write("<br>"+fname);
+		document.write("<br>"+mname);
+		document.write("<br>"+lname);
+	</script>
+</body>
+</html>
